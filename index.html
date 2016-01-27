@@ -1,89 +1,93 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="urf-8">
-  <title>Vincent Rolea</title>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Raleway:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <div id="sidebar">
-    <ul class="list-inline text-center">
-      <li><a href="#about"><i class="fa fa-info-circle"></i></a></li>
-      <li><a href="#movies"><i class="fa fa-file-video-o"></i></a></li>
-      <li><a href="#footer"><i class="fa fa-life-ring"></i></a></li>
-    </ul>
-  </div>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic info</title>
 
-  <div id ="page-content">
-    <div class="container-fluid">
-      <div class="card text-center" id="about">
-        <img src="images/moi.jpg" alt="Vincent Rolea" width="200" id="img-circle">
-        <h1>Vincent Rolea</h1>
-        <h2>Alumni @LeWagon</h2>
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 
-        <p>
-          Former Powertrain Engineer @Renault, currently improving my coding school   during  the <strong>9 weeks FullStack Developer</strong> program @LeWagon
-        </p>
+    <!-- Fontawesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <a href="" class="btn-red">See For Yourself</a>
+    <!-- Your style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="left" class="text-center">
+        <div class="card text-center" id="about">
+          <img src="images/moi.jpg" alt="Vincent Rolea" width="200" id="img-circle">
+          <h1>Vincent Rolea</h1>
+          <h2>Alumni @LeWagon</h2>
+
+          <p>
+            Former Powertrain Engineer @Renault, currently improving my coding school   during  the <strong>9 weeks FullStack Developer</strong> program @LeWagon
+          </p>
+
+          <a href="" class="btn-red">See For Yourself</a>
+        </div>
+        <div class="card text-center" id="social">
+          <ul class="list-inline">
+            <li class="text-center"><a href="https://www.facebook.com/vincent.rolea" target=  " _blank"><i class="fa fa-facebook i-social"></i><br>Facebook</a></li>
+            <li class="text-center"><a href="https://fr.linkedin.com/in/vincentrolea" <target="_blank"><i class="fa fa-linkedin"></i><br>Linkedin</a></li>
+            <li class="text-center"><a href="" target="_blank"><i class="fa fa-twitter"></i> <br>Twitter</a></li>
+          </ul>
+      </div>
       </div>
 
-      <div class="card text-center" id="social">
-        <ul class="list-inline">
-          <li class="text-center"><a href="https://www.facebook.com/vincent.rolea" target=  " _blank"><i class="fa fa-facebook i-social"></i><br>Facebook</a></li>
-          <li class="text-center"><a href="https://fr.linkedin.com/in/vincentrolea" <target="_blank"><i class="fa fa-linkedin"></i><br>Linkedin</a></li>
-          <li class="text-center"><a href="" target="_blank"><i class="fa fa-twitter"></i> <br>Twitter</a></li>
-        </ul>
+
+      <div id="right">
+        <div class="card text-center" id="movies">
+          <h2>My Favourite Movies</h2>
+          <table>
+            <tr class ="tr-card">
+              <td><img src="images/interstellar.jpg" class="img-width"></td>
+              <td class="td-padding">
+                <h3>
+                  Interstellar
+                </h3>
+                Interstellar is a 2014 epic science fiction film directed by Christopher    Nolan  and starring Matthew McConaughey, Anne Hathaway, Jessica Chastain,   and  Michael   Caine. The film features a crew of astronauts who travel   through a   wormhole in  search of a new home for humanity.
+              </td>
+            </tr>
+            <tr class ="tr-card">
+              <td><img src="images/pulp_fiction.jpg" class="img-width"></td>
+              <td class="td-padding">
+                <h3>
+                  Pulp Fiction
+                </h3>
+                Pulp Fiction is a 1994 American black comedy crime film written and   directed  by   Quentin Tarantino, from a story by Tarantino and Roger   Avary.[4]  Tarantino's  second feature film, it is iconic for its eclectic  dialogue,  ironic mix of   humor and violence, nonlinear storyline, and a  host of   cinematic allusions and  pop culture references.
+              </td>
+            </tr>
+            <tr class ="tr-card">
+              <td><img src="images/alien.jpg" class="img-width"></td>
+              <td class="td-padding">
+                <h3>
+                  Alien
+                </h3>
+                Alien is a 1979 science fiction horror film directed by Ridley Scott and      starring Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean      Stanton, John Hurt, Ian Holm and Yaphet Kotto. The film's title refers to   its   primary antagonist: a highly aggressive extraterrestrial creature  which  stalks  and kills the crew of a spaceship.
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
 
-      <div class="card text-center" id="movies">
-        <h2>My Favourite Movies</h2>
-        <table>
-          <tr class ="tr-card">
-            <td><img src="images/interstellar.jpg" class="img-width"></td>
-            <td>
-              <h3>
-                Interstellar
-              </h3>
-              Interstellar is a 2014 epic science fiction film directed by Christopher    Nolan  and starring Matthew McConaughey, Anne Hathaway, Jessica Chastain,   and  Michael   Caine. The film features a crew of astronauts who travel   through a   wormhole in  search of a new home for humanity.
-            </td>
-          </tr>
-          <tr class ="tr-card">
-            <td><img src="images/pulp_fiction.jpg" class="img-width"></td>
-            <td>
-              <h3>
-                Pulp Fiction
-              </h3>
-              Pulp Fiction is a 1994 American black comedy crime film written and   directed  by   Quentin Tarantino, from a story by Tarantino and Roger   Avary.[4]  Tarantino's  second feature film, it is iconic for its eclectic  dialogue,  ironic mix of   humor and violence, nonlinear storyline, and a  host of   cinematic allusions and  pop culture references.
-            </td>
-          </tr>
-          <tr class ="tr-card">
-            <td><img src="images/alien.jpg" class="img-width"></td>
-            <td>
-              <h3>
-                Alien
-              </h3>
-              Alien is a 1979 science fiction horror film directed by Ridley Scott and      starring Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean      Stanton, John Hurt, Ian Holm and Yaphet Kotto. The film's title refers to   its   primary antagonist: a highly aggressive extraterrestrial creature  which  stalks  and kills the crew of a spaceship.
-            </td>
-          </tr>
-        </table>
+      <div class="clear"></div>
+
+      <div id="footer">
+        <div class="card text-center">
+          <h2>About this Page</h2>
+          <p>
+            This page has been coded during the <a href="https://www.lewagon.com/fr">FullStack Program @LeWagon</a>
+          </p>
+
+          <ul class="list-inline">
+            <li><a href="" target="_blank"><i class="fa fa-heart"></i></a></li>
+            <li><a href="" target="_blank"><i class="fa fa-share"></i></a></li>
+            <li><a href="" target="_blank"><i class="fa fa-star"></i></a></li>
+          </ul>
+        </div>
       </div>
 
-      <div class="card text-center" id="footer">
-      <h2>About this Page</h2>
-      <p>
-        This page has been coded during the <a href="https://www.lewagon.com/fr"> FullStack  Program @LeWagon</a>
-      </p>
-
-      <ul class="list-inline">
-        <li><a href="" target="_blank"><i class="fa fa-heart"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-share"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-star"></i></a></li>
-      </ul>
-      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>

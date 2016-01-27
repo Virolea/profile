@@ -1,3 +1,4 @@
+/* Here goes your CSS */
 /*Elements CSS*/
 body {
   background: #EBEBEB;
@@ -22,7 +23,29 @@ a:hover {
   color: #DD5555;
 }
 
-/*Class/id CSS*/
+/*Class And Ids*/
+#wrapper {
+  padding: 20px;
+  width: 1000px;
+  margin: 20px auto;
+  display: table;
+  background-color: #E5E5E5;
+}
+#left {
+  float: left;
+  width: 35%;
+}
+#right {
+  float: left;
+  width: 65%;
+}
+.clear {
+  clear: both;
+}
+#img-circle {
+  border-radius: 50%;
+  border: 6px solid #DD5555;
+}
 .card {
   background-color: white;
   margin: 10px;
@@ -31,15 +54,11 @@ a:hover {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.text-center {
-  text-align: center;
-}
 .img-width {
   width: 130px;
 }
-#img-circle {
-  border-radius: 50%;
-  border: 6px solid #DD5555;
+.text-center {
+  text-align: center;
 }
 .btn-red {
   background-color: #DD5555;
@@ -58,28 +77,15 @@ a:hover {
 .list-inline li {
   text-decoration: none;
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
 }
 .list-inline li i {
-  font-size: 50px;
+  font-size: 25px;
 }
 .tr-card {
   padding: 10px;
 }
-#sidebar {
-  position: fixed;
-  width: 120px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background-color: #384047;
+.td-padding {
+  padding: 20px;
 }
-#page-content {
-  margin-left: 120px;
-}
-.container-fluid {
-  width: 90%;
-  margin: 30px auto;
-}
-
 
