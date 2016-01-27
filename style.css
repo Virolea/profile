@@ -50,7 +50,7 @@ a:hover {
 }
 .btn-red:hover {
   background-color: #D8360E;
-  color: rgb(230,230,230);
+  color: white;
 }
 .list-inline {
   padding: 0;
