@@ -36,7 +36,7 @@ a:hover {
   text-align: center;
 }
 .img-width {
-  width: 100px;
+  width: 130px;
 }
 #img-circle {
   border-radius: 50%;
@@ -63,6 +63,9 @@ a:hover {
 }
 .list-inline li i {
   font-size: 25px;
+}
+.tr-card {
+  padding: 10px;
 }
 
 
