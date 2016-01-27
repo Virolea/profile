@@ -49,7 +49,7 @@ a:hover {
   border-radius: 3px;
 }
 .btn-red:hover {
-  background-color: red;
+  background-color: #D8360E;
   color: rgb(230,230,230);
 }
 .list-inline {
